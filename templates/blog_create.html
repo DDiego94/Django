@@ -1,0 +1,7 @@
+<form method="POST">
+{% csrf_token %}
+<h1>Create Blog Post</h1>
+title{{form.title}}<br>
+content{{form.content}}<br>
+<button class="submit">Submit</button>
+</form>
